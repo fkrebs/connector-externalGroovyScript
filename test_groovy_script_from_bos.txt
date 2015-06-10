@@ -4,9 +4,9 @@ Logger log = Logger.getLogger ("org.bonitasoft.debug")
 log.severe (" DEBUG - INSIDE SCRIPT" )
 
 def str = """Bonjour $inputMap.name ,
-voici votre convocation.
+voici votre demo à la date du $inputMap.today.
 
-	Merci de vouloir vous connectez sur le 36.15 convocation
+Modifiez ce message dans le script groovy externe, puis rechargez le formulaire que vous voyez actuellement : le message sera mis à jour. 
 
 A bientôt"""
 
