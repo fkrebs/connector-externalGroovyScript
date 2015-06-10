@@ -1,0 +1,13 @@
+import java.util.logging.Logger;
+
+Logger log = Logger.getLogger ("org.bonitasoft.debug")
+log.severe (" DEBUG - INSIDE SCRIPT" )
+
+def str = """Bonjour $inputMap.name ,
+voici votre convocation.
+
+	Merci de vouloir vous connectez sur le 36.15 convocation
+
+A bientôt"""
+
+return str.toString()
