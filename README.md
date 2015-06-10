@@ -6,10 +6,12 @@ Author : Frederic KREBS
 Bonita BPM version : 6.3.3
 
 ##Objectives : Execute an external groovy script
-You can edit the script without recompiling neither redeploying the process on the server. 
-Use as a Form transiant data, it allows you to edit the script externaly and refresh the form or start a new process instance to see the result without recompiling the process 
+You can edit the script without recompiling neither redeploying the process on the server
+* Use as a form widget connector, it allows you to edit the script and refresh the screen to see the result
+* Use as a Form transiant data connector, it allows you to edit the script and refresh the screen to see the result
+* Use as an activity connector, it allows you to edit the script, restart a new process instance and see the changes
 
-##Connector Parameter : 
+##Connector Input Parameters : 
 	filePath : the full file path to the script
 	inputMap : a java.util.Map variable to pass data to the script
 ##Connector Output : 
@@ -22,3 +24,11 @@ Use as a Form transiant data, it allows you to edit the script externaly and ref
 * Go to step 1 form
 * Change the script and save the script
 * Refresh your navigator
+
+
+See FormTransiantData_Connector.png screen shot for the connector position
+
+##FAQ :
+* Why Form Transiant Data Connector :
+Because Form Transiant Data Connector are replayed each time the form is reloaded, 
+compare to Activity connectors which are played only once .
