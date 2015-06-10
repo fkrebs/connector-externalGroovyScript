@@ -19,18 +19,16 @@ You can edit the script without recompiling neither redeploying the process on t
 
 ##Installation and usage:
 * copie the script file in your hardrive
-* In the process, change the connector file path
+* In the process, change the connector file path : the connector in the process example is in the Form transiant data. See FAQ
 * Execute the process
 * Go to step 1 form
 * Change the script and save the script
 * Refresh your navigator
 
 
-See FormTransiantData_Connector.png screen shot for the connector position
-
-![alt tag](./FormTransiantData_Connector.png)
-
 ##FAQ :
 * Why Form Transiant Data Connector :
 Because Form Transiant Data Connector are replayed each time the form is reloaded, 
-compare to Activity connectors which are played only once .
+compare to Activity connectors which are played only once.
+
+![alt tag](./FormTransiantData_Connector.png)
