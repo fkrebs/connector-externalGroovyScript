@@ -28,6 +28,8 @@ You can edit the script without recompiling neither redeploying the process on t
 
 See FormTransiantData_Connector.png screen shot for the connector position
 
+![alt tag](./blob/master/FormTransiantData_Connector.png)
+
 ##FAQ :
 * Why Form Transiant Data Connector :
 Because Form Transiant Data Connector are replayed each time the form is reloaded, 
